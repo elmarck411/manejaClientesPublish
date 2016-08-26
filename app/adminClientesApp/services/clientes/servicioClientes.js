@@ -7,10 +7,9 @@ var servicioClientes = function($resource){
 	/* 'http://localhost:58077/api/dataservice/' backend Dan Wahlin, customerManager, agrega directorio dataservice al servicio */ 
 	/*'http://localhost:53985/Api/', backend con sql server, conflicto con insert, adminClientes, resuelto*/
 	/*'http://localhost:62208/Api/', backend manejaCLientes, ok version basica de ENtity Framework, WEBAPI2 */
-
     /*'http://localhost/dotnetAJS/api/', localhost IIS */
 	
-	var rutaBase = 'http://localhost/api/', 
+	var rutaBase = 'api/', 
 		fabrica = {}; /*variable de retorno, agregarle las funciones que expone la fabrica al exterior*/
 	
 	/*obtener la lista de clientes del servidor*/	
