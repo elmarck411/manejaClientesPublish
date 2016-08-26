@@ -12,6 +12,7 @@ angular.module('adminClientesApp')
 
 	$scope.guardar = function(){
 	    $scope.cliente.estado = 1; // parseInt($scope.cliente.estado1.clave);
+	    $scope.cliente.estado1 = {};
 	    $scope.cliente.estado1.clave = 1;
         $scope.cliente.estado1.nombre = "Aguascalientes";
 		servicioDatos.agregaCliente($scope.cliente).$promise.then(
