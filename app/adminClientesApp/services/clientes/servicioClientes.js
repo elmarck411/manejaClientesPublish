@@ -10,7 +10,7 @@ var servicioClientes = function($resource){
 
     /*'http://localhost/dotnetAJS/api/', localhost IIS */
 	
-	var rutaBase = 'http://localhost/dotnetAJS/api/clientes', 
+	var rutaBase = 'http://localhost/dotnetAJS/api/', 
 		fabrica = {}; /*variable de retorno, agregarle las funciones que expone la fabrica al exterior*/
 	
 	/*obtener la lista de clientes del servidor*/	
