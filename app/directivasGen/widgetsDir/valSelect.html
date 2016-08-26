@@ -3,7 +3,7 @@
 
 	 <select  	class="form-control" name="{{ nombre }}"  id="{{ nombre }}" 
 				ng-options = "opcion.nombre for opcion in opciones track by opcion.clave"
-				ng-model="modelo"  required >
+				ng-model="modelo" >
 		
 	</select>
 	<div ng-show="forma.{{ nombre }}.$touched" >
